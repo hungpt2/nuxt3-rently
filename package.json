@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "@vee-validate/rules": "^4.7.3",
+    "autoprefixer": "^10.4.13",
+    "axios": "^1.2.1",
+    "daisyui": "^2.46.0",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.28",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vee-validate": "^4.7.3",
+    "yup": "^0.32.11"
+  }
+}
