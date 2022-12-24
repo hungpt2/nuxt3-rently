@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import axios from "axios";
-import { cloneDeep, get } from "lodash";
+import cloneDeep from "lodash/cloneDeep";
+import get from "lodash/get";
 import { IApartment, IInventory, IApartmentStore } from "~~/types/app";
 
 export const useApartmentStore = defineStore("apartment", {
