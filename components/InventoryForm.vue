@@ -107,7 +107,7 @@ import * as yup from "yup";
 import { useApartmentStore } from "@/stores/app";
 import { IInventory } from "@/types/app";
 import { listSuppliers } from "@/constant/inventory";
-import { findIndex } from "lodash";
+import findIndex from "lodash/findIndex";
 
 export default defineComponent({
   setup() {

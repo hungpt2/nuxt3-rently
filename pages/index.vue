@@ -98,7 +98,8 @@
 <script lang="ts">
 import { useApartmentStore } from "@/stores/app";
 import { IApartment } from "@/types/app";
-import { cloneDeep, get } from "lodash";
+import cloneDeep from "lodash/cloneDeep";
+import get from "lodash/get";
 
 export default defineComponent({
   setup() {

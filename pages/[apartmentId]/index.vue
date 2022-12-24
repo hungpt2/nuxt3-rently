@@ -77,9 +77,7 @@
                     />
                   </th>
                   <th>
-                    <button class="btn" @click="onClearFilter">
-                      Clear
-                    </button>
+                    <button class="btn" @click="onClearFilter">Clear</button>
                   </th>
                 </tr>
               </thead>
@@ -118,7 +116,8 @@
 import { useApartmentStore } from "@/stores/app";
 import { IInventory } from "@/types/app";
 import { listSuppliers } from "@/constant/inventory";
-import { cloneDeep, get } from "lodash";
+import cloneDeep from "lodash/cloneDeep";
+import get from "lodash/get";
 
 export default defineComponent({
   setup() {
